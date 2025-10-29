@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Toronto's premier construction company. Residential & commercial construction, renovations, and remodeling. Get your free quote today!">
+    <meta name="keywords" content="construction, Toronto construction, home renovation, commercial construction, residential builder">
+    <title>Toronto Construction Company | Expert Builders & Renovators | Free Quote</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Toronto Construction Co.</h1>
+                </div>
+                <div class="header-contact">
+                    <a href="tel:+15551234567" class="phone-link">
+                        <span class="icon">📞</span>
+                        <span>(555) 123-4567</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-headline">Toronto's Most Trusted Construction Company</h2>
+                <p class="hero-subheadline">Quality Craftsmanship, On-Time Delivery, and Exceptional Results for Your Next Project</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">25+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Licensed & Insured</span>
+                    </div>
+                </div>
+                <a href="#contact-form" class="cta-button cta-button-large">Get Your Free Quote Today</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Construction Services</h2>
+            <p class="section-subtitle">From concept to completion, we handle every aspect of your construction project</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🏠</div>
+                    <h3>Residential Construction</h3>
+                    <p>Build your dream home from the ground up with our expert residential construction services. Custom designs and quality materials guaranteed.</p>
+                    <ul class="service-benefits">
+                        <li>Custom home building</li>
+                        <li>Quality materials & finishes</li>
+                        <li>Personalized design consultation</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🏢</div>
+                    <h3>Commercial Construction</h3>
+                    <p>Professional commercial building services for offices, retail spaces, and industrial facilities. Minimal disruption, maximum quality.</p>
+                    <ul class="service-benefits">
+                        <li>Office buildings & retail spaces</li>
+                        <li>Industrial facilities</li>
+                        <li>On-time project delivery</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🔨</div>
+                    <h3>Renovations & Remodeling</h3>
+                    <p>Transform your existing space with comprehensive renovation services. Kitchens, bathrooms, basements, and complete home makeovers.</p>
+                    <ul class="service-benefits">
+                        <li>Kitchen & bathroom remodels</li>
+                        <li>Basement finishing</li>
+                        <li>Whole home renovations</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🏗️</div>
+                    <h3>Additions & Extensions</h3>
+                    <p>Expand your living or working space with expertly designed additions. Seamlessly integrated with your existing structure.</p>
+                    <ul class="service-benefits">
+                        <li>Room additions</li>
+                        <li>Second story additions</li>
+                        <li>Garage & deck construction</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lead Capture Form Section -->
+    <section class="contact-form-section" id="contact-form">
+        <div class="container">
+            <div class="form-wrapper">
+                <div class="form-header">
+                    <h2>Get Your Free Project Quote</h2>
+                    <p>Fill out the form below and our team will contact you within 24 hours to discuss your project</p>
+                </div>
+                
+                <form id="lead-form" class="lead-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="John Smith">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="(555) 123-4567">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="project-type">Project Type *</label>
+                            <select id="project-type" name="project-type" required>
+                                <option value="">Select a service...</option>
+                                <option value="residential">Residential Construction</option>
+                                <option value="commercial">Commercial Construction</option>
+                                <option value="renovation">Renovation & Remodeling</option>
+                                <option value="addition">Addition & Extension</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Project Details</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell us about your project..."></textarea>
+                    </div>
+
+                    <button type="submit" class="cta-button cta-button-large">Get Your Free Quote</button>
+                    
+                    <div id="form-message" class="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Elements / Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <p class="section-subtitle">Don't just take our word for it - hear from our satisfied customers</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Toronto Construction Co. transformed our outdated kitchen into a modern masterpiece. Their attention to detail and professionalism was outstanding. Highly recommend!"</p>
+                    <div class="testimonial-author">
+                        <strong>Sarah Johnson</strong>
+                        <span>Kitchen Renovation</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"We needed our commercial office space completed on a tight deadline. The team delivered exceptional quality ahead of schedule. True professionals!"</p>
+                    <div class="testimonial-author">
+                        <strong>Michael Chen</strong>
+                        <span>Commercial Build</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"From the initial consultation to final walkthrough, everything was perfect. They built our dream home exactly as we envisioned. Worth every penny!"</p>
+                    <div class="testimonial-author">
+                        <strong>David & Emma Rodriguez</strong>
+                        <span>Custom Home Build</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Before/After Section -->
+    <section class="before-after">
+        <div class="container">
+            <h2 class="section-title">Our Recent Projects</h2>
+            <p class="section-subtitle">See the quality craftsmanship we deliver to every project</p>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image-placeholder">
+                        <span>Kitchen Remodel</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Modern Kitchen Transformation</h3>
+                        <p>Complete kitchen renovation with custom cabinetry and premium finishes</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image-placeholder">
+                        <span>Commercial Build</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Downtown Office Complex</h3>
+                        <p>5,000 sq ft commercial office space with modern amenities</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image-placeholder">
+                        <span>Home Addition</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Second Story Addition</h3>
+                        <p>Added 800 sq ft master suite with bathroom and walk-in closet</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image-placeholder">
+                        <span>Full Renovation</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Complete Home Renovation</h3>
+                        <p>Whole house transformation with modern design and functionality</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications & Trust Badges -->
+    <section class="certifications">
+        <div class="container">
+            <div class="certifications-content">
+                <h3>Licensed, Insured & Certified</h3>
+                <div class="badges">
+                    <div class="badge">
+                        <div class="badge-icon">✓</div>
+                        <p>Licensed Contractor</p>
+                    </div>
+                    <div class="badge">
+                        <div class="badge-icon">🛡️</div>
+                        <p>Fully Insured</p>
+                    </div>
+                    <div class="badge">
+                        <div class="badge-icon">⭐</div>
+                        <p>A+ BBB Rating</p>
+                    </div>
+                    <div class="badge">
+                        <div class="badge-icon">🏆</div>
+                        <p>Award Winning</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Area / Location -->
+    <section class="service-area">
+        <div class="container">
+            <h2 class="section-title">Proudly Serving Toronto & Surrounding Areas</h2>
+            <div class="location-content">
+                <div class="location-info">
+                    <h3>📍 Our Service Area</h3>
+                    <p>Based in Toronto, USA, we proudly serve the entire metro area and surrounding communities. Our team is ready to bring your construction project to life.</p>
+                    
+                    <div class="service-areas-list">
+                        <h4>Areas We Serve:</h4>
+                        <ul>
+                            <li>Downtown Toronto</li>
+                            <li>North Toronto</li>
+                            <li>East Toronto</li>
+                            <li>West Toronto</li>
+                            <li>Surrounding Counties</li>
+                        </ul>
+                    </div>
+
+                    <div class="contact-info">
+                        <h4>Contact Us:</h4>
+                        <p><strong>Phone:</strong> <a href="tel:+15551234567">(555) 123-4567</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:info@torontoconstructionco.com">info@torontoconstructionco.com</a></p>
+                        <p><strong>Address:</strong> 123 Main Street, Toronto, USA 12345</p>
+                        <p><strong>Hours:</strong> Monday - Friday: 7am - 6pm | Saturday: 8am - 4pm</p>
+                    </div>
+                </div>
+
+                <div class="map-placeholder">
+                    <div class="map-overlay">
+                        <p>📍 Toronto, USA</p>
+                        <p class="map-subtitle">Serving the Greater Toronto Area</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="final-cta">
+        <div class="container">
+            <div class="final-cta-content">
+                <h2>Ready to Start Your Construction Project?</h2>
+                <p>Get a free, no-obligation quote today and see why hundreds of Toronto residents and businesses choose us</p>
+                <a href="#contact-form" class="cta-button cta-button-large">Get Your Free Quote Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Toronto Construction Co.</h3>
+                    <p>Building dreams, one project at a time. Your trusted construction partner in Toronto, USA.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#contact-form">Get a Quote</a></li>
+                        <li><a href="tel:+15551234567">Call Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>123 Main Street<br>Toronto, USA 12345</p>
+                    <p>Phone: (555) 123-4567</p>
+                    <p>Email: info@torontoconstructionco.com</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Toronto Construction Co. All rights reserved. | Licensed & Insured</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
